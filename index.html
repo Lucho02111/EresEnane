@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregunta y Respuesta</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div id="pregunta">¿Por qué eres tan enane?</div>
+
+    <img src="https://i.gifer.com/Faeh.gif" alt="GIF animado" style="width: 100%; max-width: 250px; margin: 20px auto; display: block;">
+    
+    <div id="respuesta">Respuesta: <span id="respuestaTexto"></span></div>
+
+    <button id="botonSi" onclick="generarRespuesta('Soy una enana :v')">Así soy Uwu</button>
+    <button id="botonNo" onmouseover="moverAleatoriamente()" ontouchstart="moverAleatoriamente()" onclick="generarRespuesta('No lo soy Uwu')">No, no soy >:v </button>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
